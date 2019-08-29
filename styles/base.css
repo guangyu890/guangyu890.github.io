@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+/*
+**Author:小雨漫;
+*Email:275837866@qq.com;
+*Github: https://github.com/guangyu890;
+*Update: 2019/7/22;
+*Description：个人博客
+**Unit: 五木反恐;
+*/
+
+*,
+::before, 
+::after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+::selection {
+	background: #FFFF84;
+	color: #333;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: grayscale; 
+  background: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 1.2;
+}
+
+/*html5*/
+html,
+body,
+article,
+aside,
+dialog,
+footer,
+header,
+section,
+nav,
+figure,
+menu,
+main,
+header {
+	display:block;
+}
+
+p,
+ul,
+body,
+h1,
+h2,
+h3,
+ol,
+dl,
+dt,
+dd {
+	margin: 0;
+	padding: 0;
+}
+
+ul,
+ol,
+dl {
+	list-style: none;
+}
+
+button,
+a,
+[type="button"] {
+	cursor: pointer;
+}
+
+img,
+button {
+	margin: 0;
+	padding: 0;
+	border: none;
+	background: none;
+	outline: none;
+}
+
+a {
+	text-decoration: none;
+}
